@@ -1,6 +1,6 @@
 import React from 'react'
-import Navbar from "../../components/Navbar/Navbar";
-import Footer from "../../components/Footer";
+import Navbar from "../../components/Navbar";
+import Footer from "../components/Footer";
 import First from "../../components/Destination/First";
 import Firstcards from '../../components/Destination/Firstcards'
 import Secondimg from '../../components/Destination/Secondimg'
@@ -15,7 +15,7 @@ const Destination = () => {
        <First/>
        <Firstcards/>
        <Secondimg/>
-       {/* <Third/> */}
+       { <Third/>}
        <Fourth/>
        <Footer />
     </div>
