@@ -2,7 +2,7 @@ import React from 'react';
 import { Routes, Route } from "react-router-dom";
 import Homepage from "./Pages/Homepage";
 import Destination from './Pages/Destination/Destination';
-import BookNow from "./pages/Destination/BookNow";
+import BookNow from "./Pages/Destination/BookNow";
 import Categories from './Pages/Categories/Categories';
 import Wildlife from './Components/Wildlife/Wildlife';
 import Walking from './Components/Walking/Walking';
