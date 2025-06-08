@@ -1,9 +1,8 @@
 import React, { useState } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
 import "./BookNow.css";
-import Navbar from "../../components/Navbar/Navbar";
-import Footer from "../../components/Footer";
-
+import Navbar from "../../components/Navbar";
+import Footer from "../components/Footer";
 const BookNow = () => {
   const location = useLocation();
   const navigate = useNavigate();
